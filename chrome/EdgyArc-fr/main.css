@@ -127,12 +127,6 @@
       --uc-tab-top-margin: 0px;
     }
   }
-
-  @media (-moz-pref("uc.tweak.hide-tabs-bar.always")) {
-    &:not([drawtitle]) #nav-bar {
-      --uc-tab-top-margin: 0px;
-    }
-  }
 }
 
 /*sidebar header rounded container*/

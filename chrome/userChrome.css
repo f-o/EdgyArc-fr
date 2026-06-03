@@ -11,7 +11,6 @@
 
 /* Edge-Frfox tweaks */
 @import url("global/tweaks.css");
-@import url("tweaks/hide-tabs-bar.css");
 @import url("tweaks/separate-extended-urlbar.css") (-moz-pref("af.edgyarc.separate-extended-urlbar"));
 @import url("tweaks/noise-texture/style.css") (-moz-pref("af.edgyarc.noise-texture"));
 
