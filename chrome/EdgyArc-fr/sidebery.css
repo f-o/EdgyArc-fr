@@ -371,7 +371,7 @@
 
       /* New tab button. */
       & .new-tab-btn {
-        justify-content: start !important;
+        justify-content: center !important;
         white-space: nowrap !important;
         overflow: hidden !important;
         border-radius: var(--tabs-border-radius) !important;
@@ -382,13 +382,6 @@
           position: static !important;
           margin: 0 calc(var(--tabs-inner-gap) + 2px) 0 var(--tabs-inner-gap) !important;
           flex-shrink: 0 !important;
-        }
-
-        /* Add new tab label. */
-        &::after {
-          content: "New Tab" !important;
-          font: var(--tabs-font) !important;
-          color: var(--frame-fg) !important;
         }
       }
       @media (-moz-pref("af.sidebery.top-new-tab-btn")) {
