@@ -375,14 +375,6 @@
         white-space: nowrap !important;
         overflow: hidden !important;
         border-radius: var(--tabs-border-radius) !important;
-
-        /* Make sure images do not shrink when collapsed. */
-        & > svg,
-        & > img {
-          position: static !important;
-          margin: 0 calc(var(--tabs-inner-gap) + 2px) 0 var(--tabs-inner-gap) !important;
-          flex-shrink: 0 !important;
-        }
       }
       @media (-moz-pref("af.sidebery.top-new-tab-btn")) {
         order: -5 !important;
