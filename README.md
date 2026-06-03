@@ -1,3 +1,12 @@
+> [!NOTE]  
+> This is my custom version of this theme. I will not be adding new features, but as I actually use this myself, I will try to fix any breaking changes down the line.
+
+> [!WARNING]  
+> This is made to follow my specific usecase. While the theme previously had a lot of features that could be toggled by Firefox config flags, some of these may be changed, broken, or completely removed from this version.
+> Please check the commit history for any changes I have made.
+
+<br>
+
 # EdgyArc-fr
 
 Because Arc and Edge look pretty af but FOSS FTW
