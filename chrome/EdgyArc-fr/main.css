@@ -21,7 +21,6 @@
 @import url("not-edge-sidebar.css") not (-moz-pref("af.edgyarc.edge-sidebar"));
 @import url("edge-sidebar.css") (-moz-pref("af.edgyarc.edge-sidebar"));
 /*Other tweaks*/
-@import url("icons.css");
 @import url("sidebar-revamp.css") (-moz-pref("sidebar.revamp"));
 
 /*variables*/
