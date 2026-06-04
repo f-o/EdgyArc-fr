@@ -2,13 +2,6 @@
   box-shadow: var(--uc-tweak-rounded-corners-shadow) !important;
   border-radius: 6px !important;
   padding: 0px !important;
-
-  @media (-moz-pref("uc.tweak.rounded-corners")) {
-    margin-inline-end: var(--uc-tweak-rounded-corners-padding);
-    &[sidebar-positionend] {
-      margin-inline-start: var(--uc-tweak-rounded-corners-padding);
-    }
-  }
 }
 @media not (-moz-pref("af.edgyarc.show-sidebar-header")) {
   #sidebar {

@@ -113,11 +113,6 @@
 
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
   }
-  @media (-moz-pref("uc.tweak.rounded-corners")) {
-    .sidebar-browser-stack {
-      border-radius: var(--uc-tweak-rounded-corners-radius) !important;
-    }
-  }
 
   /* Move statuspanel to the other side when sidebar is hovered so it doesn't get covered by sidebar */
   #sidebar-box:not([sidebar-positionend]):hover ~ #statuspanel {

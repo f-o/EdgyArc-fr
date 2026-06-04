@@ -7,9 +7,6 @@
 /* Apparently not used anymore since FF140 (maybe earlier) */
 #sidebar-wrapper {
   display: flex !important;
-  @media (-moz-pref("uc.tweak.rounded-corners")) {
-    min-width: var(--uc-tweak-rounded-corners-padding);
-  }
 }
 
 #tabbrowser-tabbox {
