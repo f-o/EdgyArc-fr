@@ -417,7 +417,7 @@
   padding-inline: 2px !important;
 
   & > .autocomplete-richlistbox {
-    background: var(--panel-background) !important;
+    background: var(--panel-background-color) !important;
     box-shadow: 0 0 0 1px inset var(--panel-border-color) !important;
     height: auto !important;
     margin-block: -10px !important;
@@ -538,7 +538,7 @@ panelview .toolbarbutton-1,
   .popup-internal-box,
   #PopupAutoComplete > .autocomplete-richlistbox,
   .menupopup-arrowscrollbox {
-    background: var(--panel-background) !important;
+    background: var(--panel-background-color) !important;
     border: 1px solid var(--panel-border-color) !important;
   }
 
@@ -841,7 +841,7 @@ dialog {
  * CSS reference: https://searchfox.org/mozilla-central/source/browser/components/tabpreview/tabpreview.css
  * Requires `browser.tabs.cardPreview.enabled` set to `true` */
 .tab-preview-container {
-  background-color: var(--panel-background) !important;
+  background-color: var(--panel-background-color) !important;
   color: var(--panel-color) !important;
   border: 0.5px solid var(--panel-separator-color) !important;
   border-radius: 8.5px !important;
