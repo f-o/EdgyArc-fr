@@ -43,6 +43,9 @@
     - `svg.context-properties.content.enabled`
     - `af.edgyarc.edge-styles`
     - `af.sidebery.edgyarc-theme`
+  - If you're on FF 157.0 and above, you also need to change these to `false`
+    - `browser.nova.enabled`
+    - `sidebar.revamp`
 
 
 ### Step 2 - Configure EdgyArc
